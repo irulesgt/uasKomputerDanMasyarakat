@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo-title">
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <h1>HTML Tutorial</h1>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" onclick="showContent('intro')">Introduction</a></li>
+          <li class="nav-item"><a href="#" onclick="showContent('tags')">HTML Tags</a></li>
+          <li class="nav-item"><a href="#" onclick="showContent('attributes')">Attributes</a></li>
+          <li class="nav-item"><a href="#" onclick="showContent('forms')">Forms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section id="intro" class="content-section">
+      <h2>Tentang Saya</h2>
+        <p>Halo, perkenalkan nama saya Chaerul Muzaky Arif Santoso. Saya lahir di Jakarta pada tanggal 11 Oktober 1998. Saat ini, saya sedang menempuh pendidikan di Universitas Pamulang, dan saat ini sudah berada di semester 2. Selain kuliah, saya juga bekerja sebagai driver ojek online untuk mendukung kebutuhan sehari-hari dan membiayai pendidikan saya.
+        Salah satu hobi saya adalah bermain badminton. Olahraga ini tidak hanya membuat saya tetap bugar, tetapi juga mengajarkan saya tentang pentingnya kerja sama tim dan strategi.
+        Saya memiliki ketertarikan yang besar pada industri teknologi informasi (IT). Saya selalu tertarik untuk mempelajari bagaimana teknologi dapat digunakan untuk memecahkan masalah sehari-hari dan meningkatkan efisiensi. Saya percaya bahwa dengan menguasai keterampilan di bidang IT, saya dapat berkontribusi lebih banyak lagi dalam berbagai aspek kehidupan dan pekerjaan saya di masa depan.</p>
+
+        
+    </section>
+    <section id="tags" class="content-section" style="display:none;">
+      <h2>HTML Tags</h2>
+      <p>HTML tags are the building blocks of HTML pages. Here are a few basic tags:</p>
+      <ul>
+        <li><strong>&lt;h1&gt;&lt;/h1&gt;</strong> - Heading 1</li>
+        <li><strong>&lt;p&gt;&lt;/p&gt;</strong> - Paragraph</li>
+        <li><strong>&lt;a&gt;&lt;/a&gt;</strong> - Anchor (link)</li>
+        <li><strong>&lt;div&gt;&lt;/div&gt;</strong> - Division</li>
+      </ul>
+    </section>
+    <section id="attributes" class="content-section" style="display:none;">
+      <h2>HTML Attributes</h2>
+      <p>HTML attributes provide additional information about HTML elements. Here are some common attributes:</p>
+      <ul>
+        <li><strong>href</strong> - Specifies the URL of a link</li>
+        <li><strong>src</strong> - Specifies the source of an image</li>
+        <li><strong>alt</strong> - Provides alternative text for an image</li>
+        <li><strong>title</strong> - Adds extra information about an element</li>
+      </ul>
+    </section>
+    <section id="forms" class="content-section" style="display:none;">
+      <h2>HTML Forms</h2>
+      <p>HTML forms are used to collect user input. Here are some common form elements:</p>
+      <ul>
+        <li><strong>&lt;input&gt;</strong> - Defines an input field</li>
+        <li><strong>&lt;textarea&gt;</strong> - Defines a multi-line text input</li>
+        <li><strong>&lt;button&gt;</strong> - Defines a clickable button</li>
+        <li><strong>&lt;select&gt;</strong> - Defines a drop-down list</li>
+      </ul>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
